@@ -4,7 +4,11 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
+
 public class Admin implements Serializable{
+    /*
+    * 更改后的代码
+    * */
     private int id;
     @NotNull
     @Size(min = 1,max =10 )
