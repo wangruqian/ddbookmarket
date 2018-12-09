@@ -8,6 +8,7 @@ import java.io.Serializable;
 public class Admin implements Serializable{
     /*
     * 更改后的代码
+    * 更改
     * */
     private int id;
     @NotNull
